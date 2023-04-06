@@ -1,0 +1,421 @@
+<html>
+<head>
+<title>Greencard Çekilişi</title> 
+<link rel="stylesheet"  href="style.css" type="text/css">
+<link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="js.js"></script>
+
+<meta charset="UTF-8">
+<script src="/js/global.js"></script>
+		<script src="/js/exvisa_frontend.js?t=1660575060"></script>
+		<script src="https://js.stripe.com/v3/"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<style>@import url('https://fonts.googleapis.com/css?family=Poppins');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  @import url('https://www.estaexpress24.com/css/bootstrap_4/bootstrap.min.css');
+  @import url('https://www.estaexpress24.com/css/bootstrap_4/bootstrap-grid.css');
+  @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');</style>
+</head>    
+<body>
+<nav class="navbar navbar-expand-lg justify-content-center sticky-top">
+  <div class="d2">GREENCARD ÇEKİLİŞİ</div>
+ <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div>
+    <div class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+           
+        <li class="nav-item active">
+          <a class="nav-link" href="#" >ANASAYFA &nbsp; |  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#green">GREENCARD NEDIR &nbsp;|  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kazan">KAZANMA ŞANSINIZ  &nbsp;|</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">HAKKIMIZDA&nbsp; |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cont">BİZE ULAŞIN &nbsp; |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#acord">SORU-CEVAP &nbsp; |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BİLGİ FORMU </a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="sc">
+ 
+    &nbsp; Dilediğiniz her konuda bize ulaşabilir ve ücretsiz danışmanlık hizmetinden yararlanabilirsiniz.    &nbsp;&nbsp;&nbsp;
+      <font color="blue"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
+        <path d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+        <path d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+      </svg> <a href="mailto:info@americanoedu.com"> info@americanoedu.com </a> &nbsp;&nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+      </svg>  +90 537 708 81 50</font>
+      
+    
+  
+</div>
+<center>
+<span class="slider"><div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/greencardkazaninca.jpg" class="d-block w-100" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/slider.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/sonra.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div></span>
+</center>
+<br/>
+<center>
+
+
+  
+<div class="cart" id="#carts">
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-ti" id="green">GREENCARD NEDİR ?</div>
+        <div class="card-body">
+          
+          <p class="card-text">Amerika Birleşik Devletleri, Amerika toplumundaki kültürel çeşitliliğin azalmasını önlemek için Green Card ya da diğer adıyla Çeşitlilik Vizesi uygulaması ile tüm dünyadan göçmen olmak isteyen kişileri ülkesine kabul eder. Green Card Türkçe'de Yeşil Kart anlamına gelir. Green Card sayesinde göçmen olmak isteyen diğer ülke vatandaşları, oy kullanmak hariç ABD vatandaşları ile aynı haklara sahip olur.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+    <div class="col" id="kazan">
+      <div class="card h-100">
+        <div class="card-ti" >KAZANMA ŞANSINIZ</div>
+        <div class="card-body">
+          
+          <p class="card-text">Her yıl sadece bilgisayarla yapılan çekilişle 55.000 kişiye Green Card verilmektedir. Amerika Hükümeti’nin başvuruları sadece 1 ay süresince kabul etmesi, formların, İngilizce ve karışık olması tüm bilgi ve fotoğrafların sisteme sadece 1 kerede girilme zorunluluğu, yılda 4 milyon adet başvurunun çöpe gitmesine sebep olmaktadır. Bu 4 milyon kişiden biri olmamak sizin elinizde.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" id="bilgi">
+        <div class="card-ti">BİLGİ FORMU</div>
+        <div class="card-body">
+          
+          <p class="card-text">Bilgi Formunu eksiksiz ve doğru bir şekilde doldurmanızı rica ediyoruz.Ekibimiz sizin doldurmuş olduğunuz bilgi formlarındaki cevaplara göre başvurunuzu yapmaktadır.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+    
+      </div>
+  </div>
+  <br/>
+  <br/>
+  <div class="acord" id="acord">
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseFour">
+
+            <p class="a-p"> GREENCARD BAŞVURU ŞARTLARI</p>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#collapseOne">
+          <div class="accordion-body">
+            En az Lise veya lise dengi okul mezunu olmak başlıca şarttır.
+            <br/>
+            Eğer lise veya dengi bir okul mezunu değilseniz... 
+            <br/>
+            Son 5 yıl içinde en az 2 yıl, mesleki tecrübe gerektiren bir iş kolunda çalışmış olmanız gerekmektedir.
+            <br/><br/>
+            Eğer lise veya dengi okul mezunu iseniz iş tecrübesi aranmaz.
+            <br/><br/>
+            Liseyi açıktan okuyorsanız, başvuru yapabilirsiniz.
+            <br/>
+            Lisenin bitmesine 1 seneden az kaldıysa başvuru yapabilirsiniz.
+            <br/><br/>
+            İngilizce bilmek şart değildir.
+            <br/><br/>
+            Green Card'a başvuru yapabilmek için gereken bir yaş sınırı yoktur.
+            <br/><br/>
+            Check-up veya sağlık raporu istenmez. Bu konuda bazı dolandırıcı
+            firmalar ek ücretler isteyerek sağlık raporu hizmeti verdiklerini söylemektedir. Bunlara aldanmayınız. Green Card başvurusu için Check Up taraması
+            veya sağlık raporuna ihtiyaç yoktur.
+            <br/><br/><br/>
+            Çekilişe başvuruda bulunmak için mesleğinizin, yaşınızın, yüksek lisansın, üniversite mezunu olmanızın hiçbir etkisi yoktur.
+            <br/><br/>
+            Başvurunuz için önem taşıyan tek şey bilgilerinizin bir kerede, eksiksiz ve hatasız doldurularak başvuru süresi içerisinde, ABD yetkili mercileri tarafından belirtilen, elektronik transfer sayfasından yapılmasıdır.
+          </div>
+        </div>
+      </div><br/>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p class="a-p"> GREENCARD BAŞVURU HİZMETİMİZ</p>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4>Green Card Başvuru işlemlerinde %100 garanti. Confirmation numaranızı hemen gönderiyoruz. </h4><br/> Green Card Başvurunuzu, doğru bir şekilde ve tüm kurallara uygun olarak gerçekleştiriyoruz. Fotoğrafınızı başvuruya uygun hale getiriyoruz. Sizinle özel olarak ilgileniyoruz. Eksik bilgilerinizi tamamlıyoruz. Greencard.com.tr bu konuda Türkiye'deki en güvenilir ve en başarılı firmadır... Başvurudan hemen sonra Confirmation numaranızı "belgeli olarak" size iletiyoruz.
+          </div>
+        </div>
+      </div><br/>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <p class="a-p" id="a-p"> GREENCARD HAKKINDA SIKÇA SORULAN SORULAR</p>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Green Card Türkiye Markası Hakkında Bilgi<br/>
+            GREEN CARD TÜRKİYE ve GREEN CARD isim ve marka hakları, Türk Patent Enstitüsü tarafından Firmamız adına tescillidir. İletişim bölümümüzde yazan bilgiler haricinde, GREEN CARD TÜRKİYE adına sizi arayan hiç kimseye itibar etmemenizi tavsiye ederiz. Marka Tescil Belgelerimizi aşağıdaki linkten görebilirsiniz.
+            <br/><br/><br/>
+             
+            
+            GREEN CARD ve GREEN CARD TÜRKİYE<br/>
+            Marka Tescil Belgelerini görüntülemek için tıklayınız.
+            <br/><br/><br/><br/>
+             
+            
+            
+            Güvenilmeyen arama veya kargo<br/>
+            "Green Card kazandınız" diye arandım, benden kargo ücreti istediler. Bu güvenilir ve doğru bir işlem mi?
+            Size green card kazandığınızı söyleyen kişiler, CONFIRMATION numaranızı göndermek zorundadır. Size kazandığınızı söyleyip 16 haneli bu numarayı size ücret ödemeden eposta ile göndermiyorlarsa, kesinlikle dolandırıcıdır.
+            <br/><br/><br/>
+             
+            
+            Green Card için Check-Up veya sağlık raporu<br/>
+            "Green Card başvurusundan sonra anlaşmalı oldukları hastaneden sağlık raporu almam gerektiğini veya CHECK-UP yaptırmamı istediler."
+            Green Card başvurusu yapabilmek için sağlık raporuna ihtiyaç yoktur. Aynı zamanda hastanelerden alınan sağlık raporları geçersizdir. Sağlık muayenesi sadece, Amerika Birleşik Devletleri'nin anlaşmalı olduğu Ankara'daki poliklinikten verilmektedir. Bunun dışındaki hiçbir rapor kabul edilmemektedir.
+            
+             <br/><br/><br/><br/>
+            
+            Green Card başvurusu için İngilizce bilmek şart değildir. Başvuru için ingilizce TEST yapılmaz<br/>
+            Bazı firmalar Green card başvuru işlemi adı altında "İngilizce dil eğitim seti" satmak isteyebilirler. Unutmayın ki Green Card başvurusu yapabilmek veya ABD vatandaşı olabilmek için İngilizce bilmek zorunlu değildir. Başvuru için ingilizce TEST yapılmaz, Dil eğitim setlerini ihtiyacınız varsa satın alabilirsiniz. Fakat tekrar ediyoruz, şart değildir.
+            
+             <br/><br/><br/><br/>
+            
+            Bir firmadan aranıp "Green Card kazanma şansımın yüzde 82 olduğunu" söylediler. Bu doğru olabilir mi?<br/>
+            Size, "Şansınızı yükseltmek için ek ücret ödemeniz gerekiyor" diyen kişi veya firmalardan uzak durun.Green Card çekilişine katılan herkes eşit şansa sahiptir. Bir profesör ile bir lise mezunu aynı kazanma şansına sahiptir. Üniversite mezunu olduğunuzda kazanma şansınız artmaz. Üniversite mezunu olmak bir ayrıcalık değildir. Katılan hiç kimsenin birbirine karşı bir üstünlüğü yoktur. Bu bir piyangodur. Tamamen şanstır.
+            
+             
+            <br/><br/><br/><br/>
+            Green Card pazarlamacıları konusunda genel bilgilendirme<br/>
+            Firmalara sadece danışmanlık bedeli ödeyin. Danışmanlık bedeli dışında sizden para isteyen firmalardan işlem yapmayın.
+            
+             
+            <br/><br/><br/><br/>
+            Green Card'a başvurmak için aranan şartlar.<br/>
+            Green Card Başvurusu yapabilmek için en az lise mezunu olmanız VEYA en az 2 sene mesleki tecrübe gerektiren bir işte çalışmış olmanız gerekmektedir. Katılım için bunun dışında herhangi bir şart aranmaz.
+            
+             <br/><br/><br/><br/>
+            
+            Green Card başvurusu için gerekli olan evraklar nelerdir?<br/>
+            Green Card Başvuru formunu doldurduktan sonra sizden sadece biyometrik fotoğrafınız istenecektir. Resmi Başvuru için başka bir belge istenmemektedir.
+            
+             <br/><br/><br/><br/>
+            
+            1 sene içinde kaç defa çekiliş oluyor? Kaç kez başvuruda bulunabilirim?<br/>
+            Her sene 1 defa gerçekleştirilen çekilişe sadece bir kez başvuruda bulunabiliyorsunuz. Bu başvuruyu kendiniz yapabilir ya da başka birisi sizin adınıza yapabilir. Birden fazla başvuruda bulunan kişiler otomatikman diskalifiye edilirler.
+            
+             <br/><br/><br/><br/>
+            
+            Katılım için bir yaş sınırı var mı?<br/>
+            Yaş sınırı yoktur ama en az lise mezunu olmanız gerekmektedir. Eğer lise mezunu değilseniz o zaman son 5 yıl içinde 2 sene eğitim veya tecrübe isteyen bir iş dalında, en az 2 senelik bir iş deneyimine sahip olmanız gerekmektedir. Bunu belgelemek şart koşulmuştur.
+            
+             <br/><br/><br/><br/>
+            
+            Başvuru süresince ve sonrasında işlemleri nasıl takip edeceğim?<br/>
+            Fotoğraflarınız ve evraklarınız sağlıklı bir şekilde bize ulaştığında ve bilgileriniz tarafımızca ABD Göçmenlik Dairesi'ne sağlıklı bir şekilde ulaştırıldığında, size hem telefon hem de posta aracılığıyla işleminizin hatasız bir şekilde tamamlandığını bildireceğiz.
+            
+             </div>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+
+<br/>
+<br/>
+<br/>
+
+<div class="services">
+  <div class="row grayRow iconContent">
+    <div class="container">
+      <h3 class="esta_header"><span class="boldHeader"><center><h3>HİZMETİMİZ</center></h3></span><hr class="linerHeader"></h3><br/>
+      <div class="row">
+        <div class="col-md-1 iconCell">
+          <i class="fas fa-fw fa-comments"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">Canlı Destek</h3>
+          Neredeyse her saat sizin için ulaşılabilir.
+        </div>
+        <div class="col-md-1 iconCell">
+          <i class="far fa-fw fa-eye"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">Ön kontrol / manuel kontrol</h3>
+          Verileriniz manuel olarak kontrol edilecek ve düzeltilecektir.</div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 iconCell">
+          <i class="fas fa-fw fa-user-secret"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">Gizlilik Politikası</h3>
+          Verileriniz bizim için önemlidir! Almanya'da hosting, sertifikalı veri koruması.	</div>
+        <div class="col-md-1 iconCell">
+          <i class="far fa-fw fa-thumbs-up"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">% 99.9 başarı oranı</h3>
+          Katılım onayı yada para iadesi! Garantili!</div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 iconCell">
+          <i class="fas fa-fw fa-spinner"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">şeffaflık</h3>
+          Uygulamanın ilerlemesine her zaman erişimin var.</div>
+        <div class="col-md-1 iconCell">
+          <i class="far fa-clock"></i>
+        </div>
+        <div class="col-md-5">
+          <h3 class="keyfact_header">90 Dakikalık Promise</h3>
+           Kural olarak 90 Dakika içersinde Dosyanız işleme koyulup, üzerinde çalışılmaktadır.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<div class="dolandırlmayın"><h3>Green Card Kazandınız diyerek sizi telefonla arayan dolandırıcılara dikkat ediniz.</h3>
+
+  "Green card kazandınız" diyerek sizi arayan kişilerin, kargo ile size bir kart göndermelerine imkan yoktur. Çünkü Green Card, Türkiye'den değil, Amerika Birleşik Devletleri'ne giriş yaptıktan sonra alabileceğiniz bir karttır. Türkiye'den teslim edilmez. Green Card başvurusu yapmak isterken, dolandırılmayın.
+</div><br/>
+<div class="dolandırlmayın2"><h3>Green Card başvurusu borcundan dolayı size gönderilen ihtarnameler hakkında önemli açıklama!</h3>
+
+  Son zamanlarda ihtarname veya ihbarname adı altnda adreslerine mektuplar gelen başvuru sahiplerinden sıkça şikayetler almaktayız. GreenCardTurkiye.com hiç kimsenin adresine bu tarz mektuplar yollamamıştır. Bu kağıt parçaları bazı kötü niyetli firmalar tarafından aldatmacalı bir şekilde sizlere gnderilmektedir.
+</div>
+<br/>
+<br/>
+
+
+<div class="about" id="about">
+  <h2>HAKKIMIZDA</h2>
+  Greencardcekilisi.com (Americanoedu), dürüst ve ciddi hizmet anlayışıyla bu sektördeki 1 numaralı firmadır.
+
+  Kesinlikle müşterilerini mağdur etmeyen, tamamen ücretsiz danışmanlık sağlayan, başvuru sahiplerine sonradan sürpriz masraflar çıkarmayan hizmet prensibimiz, bizi Green Card danışmanlığı konusunda Türkiye'deki en güvenilir servis haline getirmiştir.
+  
+  Telefonlarınıza çıkmayan, size güvenilir hiç bir bilgi vermeyen, yanlış bilgilerle kafanızı karıştıran diğer tüm firmalardan hizmet farkıyla her zaman bir adım önde olan Green Card Türkiye, sağladığı hizmet kalitesini, sürekli artırarak devam ettirmektedir.
+  
+  Bu makaleyi hazırlamaktaki amacımız, bize sürekli olarak sorulan çeşitli sorular ve Green Card hakkındaki genel/olağan konularda bilgilendirme yapmaktır. Makalenin içinde, Bizi diğer firmalardan ayıran özelliklerimiz, Fiyat politikamız ve genel kapsamlı bilgilendirmeler mevcuttur.
+
+
+</div>
+
+<br/>
+</center>
+
+
+
+<br/>
+<div class="contact"id="cont">
+  <center>
+  <table>
+    <tr>
+      <td><form class="contact-form" id="contact-form" method="post" action="mailto:erdoganotman@outlook.com.tr">
+    <label >İsim ve Soyisim </label><input type="text" class="form-control" placeholder="İsminiz ve Soyisminizi Giriniz." name="name" required/><br/>
+    <label>Mail Adresiniz </label><input type="text" class="form-control" placeholder="E-Mail Adresinizi Giriniz" name="mail" required/><br/>
+    <label>Telefon Numaranız</label><input type="text" class="form-control" placeholder="Telefon Numaranızı Giriniz" name="phone" required/><br/>
+    <label>Mesajınız</label><textarea class="form-control" placeholder="Mesajınızı Giriniz" name="message" required></textarea><br/>
+    <div class="d-grid gap-2 d-md-block">
+    <center><button type="submit" class="btn1" id="sent" name="sent">Mesajınızı Gönderin</button>&nbsp;&nbsp;<button type="reset" class="btn1" id="reset" name="reset">Temizle</button>
+  </center>
+  </form>
+  </td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  <td> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.7977648830947!2d29.04454701570722!3d41.11710762066901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab587781cdd0f%3A0x32374c75bb759016!2sCafe%20Americano!5e0!3m2!1str!2str!4v1660571270398!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+  </tr>
+  </table>
+</center>
+ </div>
+<br/><br/><br/>
+
+<footer class="footer">
+<div>
+  <!--<div class="container" id="ft1">
+    <div class="row">
+      <div class="col order-last" style="color: darkblack; font: bold;">
+        <h5>ADRESİMİZ</h5>
+        <P> İstinye Mah.  Kaplıcalar Cad.<br/> NO:11/A 34460  sarıyer/İstanbul</P>   
+      </div>
+      <div class="col">
+        Second in DOM, unordered
+      </div>
+      <div class="col order-first">
+        Third in DOM, ordered first
+      </div>
+    </div>
+  </div>  -->
+  <p class="f-p">Greencardcekilisi.com özel bir organizasyon danışmanlık şirketidir. ABD Hükümeti veya herhangi resmi bir kurumla ilişkimiz bulunmamaktadır.</p>
+</div>
+
+
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+
+.sc{
+    text-align: center;
+    
+    font-weight: bold;
+    
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #093155;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font:bold;
+    clear: both;
+   
+}
+.body{
+    width: auto;
+    height: 1300px;
+}
+
+#ft1{
+    padding: 70px;
+}
+.navbar{
+    background-color:#093155;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    
+    text-align: right;
+    height: 75px;
+    top: 0;
+}
+.name{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+#carouselExampleDark{
+    
+    height: 500px;
+}
+.d2{
+    float: left;
+    text-align: left;
+    font-size: 23px;
+    font: bold;
+    text-shadow: 4px 3px 2px #000;
+    width: 700px;
+
+    
+}
+.navbar.navbar-expand-lg.justify-content-center li a {
+    color: white;
+}
+.cart{
+    width: 1300px;
+}
+
+.card-ti{
+    border: 1px solid;
+    background-color:#093155;      
+    color: white;
+    height: 55px;
+    padding: 6px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.card.h-100{
+    border-radius: 10px;
+}
+.card-footer{
+    border-radius: 10px; 
+}
+.acord{
+    width: 1300px;
+    margin: auto;
+}
+.accordion-button.collapsed{
+    background-color: #093155;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.a-p{
+    font: bold;
+}
+.mesai{
+    width: 1200px;
+}
+.tablo{
+    border: 1;
+    width: 1200px;
+}
+.accordion-button.collapsed:hover{
+    background-image: linear-gradient(to right,#093155,red );
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.about{
+    border-radius: 20px;
+    width: 1300px;
+    height: 400px;
+    border: 2px solid;
+    border-color:#093155;
+    padding: 85px;
+    box-shadow: 2px,1px,1px;
+    background-color: #093155;
+    color: white;
+    font-size: large;
+        
+}
+.slider{
+    width: 1300px;
+    height: 500px;
+}
+#carouselExampleDark{
+    width: 1300px;
+    height: auto;
+}
+.contact-form{
+    float: left;
+    width: 500px;
+    
+}
+.ad{
+ 
+ float: left;   
+    width: 600px;
+   
+}
+.btn1{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding: auto;
+    background-color: #093155;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    
+}
+.btn1:hover{
+    background-image: linear-gradient(to right,#093155,#fbec5d);
+}
+.services{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 1300px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to right,#093155,red);
+}
+.dolandırlmayın{
+    width: 1300px;
+    border: 2px solid;
+    border-radius: 10px ;
+    padding: 10px;
+    border-color:#093155;
+    background-color: #093155;
+    color: white;
+}
+.dolandırlmayın2{
+    width: 1300px;
+    border: 2px solid;
+    border-radius: 10px ;
+    padding: 10px;
+    background-color:#FBEC5D;
+    border-color: #FBEC5D;
+}
+.f-p{
+    text-align: center;
+    padding: 13px;
+}
+.nav-link:hover{
+    background-image: linear-gradient(to left, #093155,#fbec5d)
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://www.estaexpress24.com/css/bootstrap_4/bootstrap.min.css');
+@import url('https://www.estaexpress24.com/css/bootstrap_4/bootstrap-grid.css');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
